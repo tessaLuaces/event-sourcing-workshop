@@ -13,11 +13,11 @@ class EventStore:
 
     def append(self, event: Event) -> Event:
         """Append an event to the store."""
-        
+
         self._events.append(event)
         return event
 
     def get_events(self) -> list[Event]:
         """Get all events from the store."""
-        
+
         return self._events

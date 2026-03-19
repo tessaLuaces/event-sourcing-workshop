@@ -1,6 +1,7 @@
 from .lib import Aggregate, Event
 from typing import override
 
+
 class BankAccount(Aggregate):
     def __init__(self, aggregate_id: str):
         super().__init__(aggregate_id)

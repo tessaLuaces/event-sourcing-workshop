@@ -2,6 +2,7 @@ from src.lib import EventStore
 from src.bank_account import BankAccount
 from src.balance_projection import BalanceProjection
 
+
 def main():
     # 1. Initialize Event Store
     event_store = EventStore()
